@@ -1,0 +1,45 @@
+{
+    "name": "alveychain",
+    "genesis": {
+        "nonce": "0x0000000000000000",
+        "timestamp": "0x0",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f90127f90120f846943cc9bd8931c96e1f4abb60714fd4ee4989fc24f7b0ad07531dbfe53f5975cd2928c19a354847129e85070d53f5a08f0608b785ab559e498e4fa48a0313065c565fbd1ba809f84694dd5217493685c376142f6eb26ba012d6656f3ebeb0a5973bbe559e01a06b7af6d22b3c075966d19e680e1ddcdcaa55784d1dbc3fb7af05940fcb9bc99918523996145a7876f846944d2b668973615eafe5fdf714ce9225b7c228746cb0b6394fe18c80c9d01406658c327c8120caa763fd327b6706758bf53a5eba9fccde86fe5dabb2f999ec5e8654a81143fbf8469453fd7ca148ea849dfed902ece64d8e11f07e146cb0a9451e66d24b3f05347f889b5128b66d6245ceef138dbfb4b0e1514219bb67de3de90bfa5ac01b348c19c8984b51df4280c28080",
+        "gasLimit": "0x3b9aca00",
+        "difficulty": "0x1",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0000000000000000000000000000000000000000",
+        "alloc": {
+            "0x74De2b1ba0a10BF61a2733282dB9a3D60DeeBA23": {
+                "balance": "0x84595161401484a0000000"
+            }
+        },
+        "number": "0x0",
+        "gasUsed": "0x70000",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "params": {
+        "forks": {
+            "homestead": 0,
+            "byzantium": 0,
+            "constantinople": 0,
+            "petersburg": 0,
+            "istanbul": 0,
+            "EIP150": 0,
+            "EIP158": 0,
+            "EIP155": 0
+        },
+        "chainID": 3797,
+        "engine": {
+            "ibft": {
+                "epochSize": 50,
+                "type": "PoA",
+                "validator_type": "bls"
+            }
+        },
+        "blockGasTarget": 0
+    },
+    "bootnodes": [
+        "/ip4/95.179.246.28/tcp/1478/p2p/16Uiu2HAkxcdj1KNakRqyXm49PQmsFLqFGh41MpXbqJNoSU2ssPWP",
+        "/ip4/185.92.221.129/tcp/1478/p2p/16Uiu2HAkzTsrGRdpzoPD8NRScgRyXmfrprMf1xC4NN7wHxT82EK1"
+    ]
+}
