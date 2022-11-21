@@ -17,7 +17,7 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.18.3.linux-amd64.ta
 echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
 source ~/.profile
 
-# Clone and build polygons-sdk
+# Clone and build alvey
 git clone https://github.com/AlveyCoin/alveychain.git && cd alveychain
 echo "Building Go executable, please wait..."
 go build -o alvey main.go
@@ -25,6 +25,8 @@ go build -o alvey main.go
 # Initialize validator dir
 echo "Initializing validator directory.."
 cp ../genesis.json . && chmod +x genesis.json
+echo
+./alvey secrets init --data-dir data-dir
 echo
 
 ## Show private key
