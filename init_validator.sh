@@ -37,5 +37,5 @@ echo
 ## Prompt user
 echo
 echo
-read -n 1 -s -r -p "Additionally, please make a copy of your \`Private Key\` and store this somewhere safe - DO NOT share it with us! Once this is done, press any key to continue.."
+read -n 1 -s -r -p "Additionally, please make a copy of your \`Private Key\` and store this somewhere safe - DO NOT SHARE YOUR PRIVATE KEY WITH ANYONE! Once this is done, press any key to continue.."
 echo
