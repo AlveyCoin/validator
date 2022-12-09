@@ -30,11 +30,13 @@ Once again NEVER SHARE YOUR PRIVATE KEY WITH ANYONE! You can import this private
 ## How to Use
 
 1. SSH into you're newly created VM
-2. Run `https://github.com/AlveyCoin/validator && cd validator`
-3. Run the setup scripts
-   1. Run `./init_validator.sh`
-   2. Run `./start_validator.sh`
-   (If you get an error when running `./init_validator.sh` or `./start_validator.sh` make sure they are executable with `chmod +x init_validator.sh` and `chmod +x start_validator.sh` )
+2. Run `git clone https://github.com/AlveyCoin/validator && cd validator`
+3. Make the setup scripts executable and run them
+   1. Run `chmod +x init_validator.sh`
+   2. Run `chmod +x start_validator.sh`
+   3. Run `./init_validator.sh`
+   4. Run `./start_validator.sh`
+   
 4. Confirm Alvey Node is Running `sudo systemctl status alvey.service`
 5. You should see an output like: 
 
